@@ -1,0 +1,96 @@
+body {
+    background-image: url("assets/bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.left {
+    display: block;
+    position: absolute;
+    margin: 19px 60px;
+}
+
+.right {
+    display: block;
+    position: absolute;
+    color: white;
+    right: 20px;
+    margin: 19px 60px;
+}
+
+.mid {
+    clear: both;
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 70%;
+    color: white;
+    margin: 10px 265px;
+}
+
+.mid li {
+    font: 12px/38px D-DIN-Medium, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    float: left;
+    margin: 7px;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.left img {
+    width: 185px;
+    height: 32px;
+}
+
+.right a {
+    font: 12px/38px D-DIN-Medium, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 11px;
+    margin-left: -22px;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.right a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bodyText {
+    font: 18px/38px D-DIN-Medium, Arial, Verdana, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    position: absolute;
+    color: white;
+    margin: 230px 50px;
+}
+
+
+.bodyText button {
+    font: 12px/38px D-DIN-Medium, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+
+}
+
+.bodyText button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
